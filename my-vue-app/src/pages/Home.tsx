@@ -1,6 +1,10 @@
+import { Avatar } from "../components/styleds/Avatar";
 import { Button } from "../components/styleds/Button";
+import { Card } from "../components/styleds/Card";
 import { Container } from "../components/styleds/Container";
+import { Divider } from "../components/styleds/Divider";
 import { MainBanner } from "../components/styleds/MainBanner";
+import { SectionCards } from "../components/styleds/SectionCards";
 import { Title } from "../components/styleds/Title";
 
 export function Home(){
@@ -9,22 +13,19 @@ export function Home(){
 
     <MainBanner>
 
-    <Title color = "white">Home Page</Title>
+    <Title color = "pink">Home Page</Title>
 
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ea accusamus inventore possimus exercitationem explicabo repellat 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque, fugiat obcaecati quibusdam ex pariatur soluta? Necessitatibus 
     </p>
 
     <Button> Saiba Mais</Button>
 
     </MainBanner>
 
-    <Container>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus officiis voluptate reprehenderit dolores quia odit non laboriosam consequuntur facere beatae labore iste, eos blanditiis repudiandae maiores ducimus est ipsam ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut est eos soluta, aperiam fugiat ad ea harum voluptatibus excepturi inventore, totam consequuntur quo laudantium consectetur rerum corporis facilis quibusdam debitis.
-        </p>
+    <SectionCards/>
 
-    </Container>
+    <Divider/>
     
     </>
     

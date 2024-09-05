@@ -1,9 +1,7 @@
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from './configs/global/GlobalStyled'
 import { AppRoutes } from './configs/routes/AppRoutes'
-import { DarkTheme } from './configs/themes/dark';
-import { LightTheme } from './configs/themes/light';
-// import { LightTheme } from './configs/themes/light';
+import { LightTheme, DarkTheme } from './configs/themes';
 
 function App() {
   return (
